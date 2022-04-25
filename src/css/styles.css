@@ -1,0 +1,778 @@
+html{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/imgWelcome.jpg");
+}
+/* Menu's style*/
+.menuContainer .nav{
+    width: 100%;
+    justify-content: space-between;
+    padding: 2% 5%;
+}
+.menuContainer .nav div .nav-link{
+    display: inline-block;
+}
+.menuContainer .nav .logoContainer .nav-link{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #e50914;
+}
+.menuContainer .buttonSesionContainer{
+    width: 50%;
+    text-align: end;
+    margin: 1%;
+}
+.menuContainer .buttonSesionContainer select{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 1%;
+    font-weight: 500;
+}
+.menuContainer .buttonSesionContainer select option{
+    background-color: gray;
+}
+.menuContainer .nav div .btnRed{
+    background-color: #e50914;
+    color: white;
+    border-radius: 5px;
+    width: 24%;
+    text-align: center;
+    margin-left: 4%;
+    padding: 0.7%;
+}
+
+/* WELCOME PAGE*/
+.containerWelcome .divider{
+    box-shadow: 0px -42px 37px black;
+    width: 100%;
+    height: 0.5rem;
+    background-color: #222;
+}
+/* Primera seccion */
+.containerWelcome .firstContainer{
+    margin-bottom: 12%;
+}
+.containerWelcome .firstContainer .firstSection .col div{
+    text-align: -webkit-center;
+}
+.containerWelcome .firstContainer .firstSection .col .titleContainer h1{
+    color: white;
+    font-weight: 700;
+    font-size: 3rem;
+    width: 55%;
+}
+.containerWelcome .firstContainer .firstSection .col .titleContainer h5{
+    font-size: 1.5rem;
+    color: white;
+}
+.comenzarContainer{
+    margin-top: 4%;
+}
+.comenzarContainer h6{
+    font-weight: 600;
+    margin-block-end: 1.5%;
+    color: white;
+    font-size: 1.2rem;
+}
+.comenzarContainer input{
+    width: 43%;
+    height: 3.5rem;
+    padding: 0% 1%;
+}
+.comenzarContainer button{
+    height: 3.5rem;
+    width: 18%;
+    margin-left: .1%;
+    color: white;
+    background-color: #e50914;
+    border-style: none;
+}
+.comenzarContainer button h4{
+    font-weight: 400;
+}
+.welcomeNext{
+    margin-left: 9%;
+    font-size: 21px;
+}
+/* Segunda seccion*/
+.containerWelcome .secondContainer{
+    height: 28rem;
+    background-color: black;
+    text-align: center;
+}
+.containerWelcome .secondContainer .container{
+    height: 84%;
+    padding-top: 10%;
+}
+.containerWelcome .secondContainer .container .row {
+    height: 100%;
+}
+.containerWelcome .secondContainer .container .row .textContainer{
+    text-align: start;
+}
+.containerWelcome .secondContainer .container .row .textContainer h1{
+    color: white;
+    font-size: 3rem;
+}
+.containerWelcome .secondContainer .container .row .textContainer h4{
+    color: white;
+    margin-top: 3%;
+}
+/* Estilos del carrusel*/
+.contenedorCarrusel{
+    text-align: -webkit-center;
+}
+.carousel-wrapper{
+    width: 57%;
+}
+.carousel-wrapper ul .thumb{
+    display: none;
+}
+.control-dots{
+    background-color:rgba(0, 0, 0, 0.5);
+}
+.containerWelcome .secondContainer .container .row .sliderContainer{
+    height: 100%;
+}
+.containerWelcome .secondContainer .container .row .sliderContainer .slick-slider{
+    width: 64%;
+    height: 100%;
+    display: inline-grid;
+}
+
+
+.imgSectionWrapper{
+    height: 85%;
+}
+.imgSection{
+    height: 82%;
+    width: 78%;
+}
+/* LastContainer*/
+.lastContainer{
+    text-align: center;
+    background-color: black;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+.lastContainer h1{
+    color: white;
+    margin-bottom: 4%;
+}
+.lastContainer li{
+    color: white;
+}
+.lastContainer .preguntasWrapper .preguntaContainer{
+    width: 50%;
+    display: inline-block;
+    text-align: start;
+}
+.lastContainer .preguntasWrapper .plusContainer{
+    width: 50%;
+    display: inline-block;
+    text-align: end;
+}
+.lastContainer .preguntasWrapper{
+    padding: 0% 11%;
+}
+.lastContainer .preguntasWrapper ul{
+    list-style: none;
+}
+.lastContainer .preguntasWrapper ul li{
+    height: fit-content;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 0% 3%;
+    margin-bottom: 1%;
+}
+.lastContainer .preguntasWrapper ul li .preguntaWrapperli div{
+    cursor: pointer;
+    padding: 1%;
+    background-color: #303030;
+}
+.descripcionPF{
+    background-color: #303030;
+    text-align: start;
+    padding: 3%;
+    margin-top: 0.5%;
+    display: none;
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+/* LOGIN PAGE */
+.justify-content-md-center{
+    margin: 0%;
+}
+.justify-content-md-center .col-md-auto{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    text-align: start;
+    width: 34%;
+    height: 40rem;
+    border-radius: 2px;
+    padding: 3% 5%;
+
+}
+.justify-content-md-center .col-md-auto h1{
+    margin-bottom: 10%;
+}
+.justify-content-md-center .col-md-auto .wrapperLoggin{
+    width: 85%;
+}
+.justify-content-md-center .col-md-auto .wrapperLoggin .wrapperLoginCenter{
+    text-align: center;
+}
+.inputContainer{
+    height: 3rem;
+    margin-bottom: 11%;
+}
+.inputContainer input{
+    padding: 3%;
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+}
+.wrapperLoginCenter .buttonContainer{
+    height: 3rem;
+    margin-top: 20%;
+}
+.wrapperLoginCenter .buttonContainer button{
+    width: 100%;
+    height: 100%;
+    background-color: #e50914;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 115%;
+}
+.checkLinkContainer {
+    margin-top: 3%;
+}
+.checkLinkContainer .inputCheckBoxContainer{
+    width: 50%;
+    display: inline-block;
+    text-align: start;
+}
+.checkLinkContainer .inputCheckBoxContainer span{
+    font-size: 91%;
+    color: darkgray;
+    margin-left: 3%;
+}
+.checkLinkContainer .linkAyudaContainer{
+    width: 50%;
+    display: inline-block;
+    text-align: end;
+}
+.checkLinkContainer .linkAyudaContainer a{
+    text-decoration: none;
+    color: darkgray;
+    font-size: 85%;
+}
+.checkLinkContainer .linkAyudaContainer a:hover{
+    text-decoration: underline;
+}
+.col-md-auto .wrapperLogin .wrapperLoginDescription{
+    margin-top: 20%;
+}
+.facebookContainer{
+    margin-bottom: 5%;
+}
+.facebookContainer .facebookDescriptionContainer .linkFacebook{
+    color: gray;
+    text-decoration: none;
+    font-size: 85%;
+}
+.wrapperPrimeraSuscribete .primeraVezContainer{
+    width: 60%;
+    display: inline-block;
+}
+.wrapperPrimeraSuscribete .primeraVezContainer span{
+    font-size: 109%;
+    color: gray;
+}
+.wrapperPrimeraSuscribete .suscribeteContainer{
+    width: 40%;
+    display: inline-block;
+}
+.wrapperPrimeraSuscribete .suscribeteContainer .linkSuscribete{
+    color: white;
+    text-decoration: none;
+    font-size: 110%;
+}
+.recaptchaInfoContainer{
+    margin-top: 2%;
+}
+.recaptchaInfoContainer .recaptchaContainer{
+    font-size: 90%;
+    color: darkgray;
+}
+.recaptchaInfoContainer .recaptchaContainer span .linkInfo{
+    text-decoration: none;
+}
+
+/* FOOTER COMPONENT */
+.wrapperFooter{
+    background-color: black;
+}
+.containerFooter{
+    padding: 7% 7% 3% 9%;
+}
+.containerFooter .informacionFooter span{
+    color: gray;
+}
+.containerFooter .informacionFooter a{
+    color: gray;
+    text-decoration: none;
+}
+.containerFooter .informacionFooter a:hover{
+    text-decoration: underline;
+}
+.containerFooter .row{
+    margin-top: 2%;
+}
+.containerFooter .row .col-md-3 .linkFooter{
+    display: block;
+    color: gray;
+    text-decoration: none;
+    font-size: 88%;
+    margin: 4% 0%;
+}
+.containerFooter .row .col-md-3 .linkFooter:hover{
+    text-decoration: underline;
+}
+.containerFooter .selectIdioma{
+    background-color: black;
+    color: gray;
+    border: 1px solid gray;
+    padding: 1%;
+    font-weight: 500;
+    width: 13%;
+    text-align: center;
+}
+.containerFooter .selectIdiomaContainer {
+    margin: 2% 0%;
+}
+.containerFooter .derechoAutorContainer span{
+    color: gray;
+    font-size: 87%;
+}
+/*Footer welcome*/
+.wrapperFooterWelcome{
+    margin-top: 5%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}
+
+/* SIGNUP PAGE*/
+.signupContainer{
+    background-color: white;
+    width: 100%;
+    height: 30rem;
+}
+
+/* navbar signup*/
+.navbarSignup{
+    justify-content:space-between;
+    background-color: white;
+    height: 16%;
+    box-shadow: rgb(17 17 26 / 10%) 0px 2px 0px;
+}
+.navbarSignup .logoSignupContainer{
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+    text-align: left;
+}
+.navbarSignup .logoSignupContainer .logoSignup{
+    text-decoration: none;
+    color: #e50914;
+    font-weight: 700;
+    margin-left: 4%;
+    font-size: 2.5rem;
+}
+.navbarSignup .sesionSignupContainer{
+    margin-top: 2%;
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+    text-align: right;
+}
+.navbarSignup .sesionSignupContainer .sesionSignup{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin-left: 4%;
+    font-size: 1.2rem;
+    margin-right: 4%;
+}
+.signupContainer .signUpBody{
+    text-align: center;
+}
+
+
+/* Primer screen*/
+.registroContainer{
+    height: 23rem;
+    margin-top: 9%;
+}
+.registroContainer .imgSignUp{
+    background-image: url("../img/imgSignUp.png");
+    width: 100%;
+    height: 26%;
+    margin-bottom: 5%;
+}
+.registroContainer .col-lg-4 .parrafoPrimerScreen{
+    font-size: 80%;
+    margin-bottom: 0%;
+}
+.registroContainer .col-lg-4 .parrafoPrimerScreen span{
+    font-weight: 700;
+}
+.registroContainer .col-lg-4 .descriptionSignUp{
+    margin-bottom: 9%;
+}
+.btnSiguiente{
+    color: white;
+    background-color: #e50914;
+    border-style: none;
+    width: 25%;
+    height: 3.5rem;
+    border-radius: 7px;
+    font-weight: 400;
+    font-size: 131%;
+}
+.botonFeo{
+    display: block;
+    background-color: #e50914;
+    margin-left: 5%;
+    border-radius: 20px;
+    height: 2rem;
+    width: 2rem;
+    border-style: none;
+}
+.botonFeo .iconBotonFeo{
+    color: white;
+}
+.containerCambiarContra{
+    margin-top: 3%;
+    text-align: start;
+    margin-bottom: 6%;
+    padding: 0 2%;
+}
+.containerCambiarContra .contadorCambiarContra{
+    margin: 0;
+    padding: 0;
+    font-size: 78%;
+}
+.containerCambiarContra .contadorCambiarContra span{
+    font-weight: bold;
+}
+.containerCambiarContra .descriptionCambiarContra{
+    font-size: 1.1rem;
+    margin-bottom: 2%;
+}
+.containerCambiarContra .formCrearContra{
+    height: 50%;
+}
+.containerCambiarContra .formCrearContra div{
+    height: 40%;
+    margin-bottom: 2%;
+}
+.containerCambiarContra .formCrearContra div .inputFormCrear{
+    width: 100%;
+    height: 100%;
+    padding: 0% 2%;
+}
+.containerCambiarContra .formCrearContra .inputCorreoContraDiv{
+    padding: 0% 2%;
+    border: solid gray 1px;
+}
+.containerCambiarContra .formCrearContra .inputCorreoContraDiv span{
+    color: gray;
+    font-size: 77%;
+    font-weight: 500;
+}
+.seleccionaPlan{
+    margin-bottom: 2%;
+    margin-top: 10%;
+}
+.seleccionaPlan .col-lg-6{
+    width: 37%;
+}
+.seleccionaPlan .col-lg-6 .tituloSeleccionaPlanContainer{
+    margin-bottom: 6%;
+}
+.seleccionaPlan .descripcionSeleccionaPlan{
+    text-align: start;
+}
+.seleccionaPlan .descripcionSeleccionaPlan ul li{
+    list-style: none;
+    margin-bottom: 4%;
+    font-size: 1rem;
+}
+.seleccionaPlan .descripcionSeleccionaPlan ul li div{
+    width: 90%;
+    display: inline-block;
+}
+.seleccionaPlan .col-lg-6 .checkContainer{
+    margin-bottom: 8%;
+}
+.seleccionaPlan .col-lg-6 .checkContainer .check{
+    color: #e50914;
+    height: 3rem;
+}
+.seleccionaPlan .col-lg-6 p{
+    font-size: 85%;
+    margin: 0%;
+}
+.seleccionaPlan .col-lg-6 p span{
+    font-weight: bold;
+}
+.seleccionaPlan .col-lg-6 .descripcionSeleccionaPlan ul .checkItem{
+    margin-right: 2%;
+    color: #e50914;
+}
+/* Seccion "Seleccion el plan ideal para ti" */
+.seleccionContainer{
+    padding: 3%;
+}
+.seleccionContainer .justify-content-md-center{
+    text-align: initial;
+}
+.seleccionContainer .justify-content-md-center .encabezadoWrapper .contadorSeleccion{
+    font-size: 85%;
+}
+.seleccionContainer .justify-content-md-center .encabezadoWrapper .contadorSeleccion span{
+    font-weight: 700;
+}
+.seleccionContainer .justify-content-md-center .encabezadoWrapper .tituloSeleccionContainer{
+    margin-bottom: 2%;
+}
+.seleccionContainer .col-md-12 .descripcionSeleccion .listaSeleccion{
+    list-style: none;
+    padding-left: 0%;
+}
+.seleccionContainer .col-md-12 .descripcionSeleccion .listaSeleccion li {
+    margin-bottom: 0.5%;
+    text-align: initial;
+    width: 47%;
+}
+.seleccionContainer .col-md-12 .descripcionSeleccion .listaSeleccion li div{
+    width: 50%;
+    display: inline;
+}
+.seleccionContainer .col-md-12 .descripcionSeleccion .listaSeleccion li .checkSeleccion{
+    height: 21px;
+    margin-right: 2%;
+    color: #e50914;
+}
+.textoSeleccionContainer .textoSeleccion{
+    width: 80%;
+    text-align: initial;
+    font-size: 90%;
+    color: gray;
+}
+/* Estilo de tabla */
+.tablaSeleccion .firstRow{
+    border-style: hidden;
+}   
+.tablaSeleccion td{
+    text-align: center;
+}
+.tablaSeleccion .secondRows th{
+    color: #565656;
+    font-weight: 500;
+    padding: 0.9rem 0.5rem;
+}
+.tablaSeleccion tbody tr td{
+    font-weight: 600;
+}
+.tablaSeleccion tbody tr td:first-child{
+    width: 43%;
+}
+.tablaSeleccion tbody tr td .squareContainer{
+    cursor: pointer;
+}
+.tablaSeleccion .firstRow .squareContainer span{
+    display: block;
+    font-size: 1.5rem;
+    opacity: 0.6;
+}
+.tablaSeleccion .firstRow .squareContainer .squareDown{
+    height: 84px;
+    color: #e50914;
+    opacity: 0.6;
+}
+.td1, .td2, .td3{
+    opacity: 0.6;
+}
+.columnaActivada{
+    height: 84px;
+    color: #e50914;
+}
+/* Estilos 'Elegir pago' */
+.pagoContainer{
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+.pagoContainer .pagoRow .col-md-6 .pagoBox{
+    text-align: -webkit-center;
+}
+.pagoContainer .pagoRow .col-md-6 .pagoBox .logoPagoContainer{
+    border-radius: 19px;
+    background-color: white;
+    border: solid #e50914 2px;
+    width: 8%;
+    height: 2.3rem;
+    align-content: center;
+}
+.pagoContainer .pagoRow .col-md-6 .pagoBox .logoPagoContainer .logoPago{
+    margin-top: 20%;
+    color:#e50914;
+}
+.pagoContainer .pagoRow .col-md-6 .pagoBox .descripcionContainer{
+    margin-top: 10%;
+}
+.pagoContainer .pagoRow .col-md-6 .pagoBox .descripcionContainer .contadorPagoContainer p{
+    margin-bottom: 0;
+    font-size: 85%;
+}
+.pagoContainer .pagoRow .col-md-6 .pagoBox .descripcionContainer .contadorPagoContainer p span{
+    font-weight: 700;
+}
+.pagoContainer .pagoRow .col-md-6 .pagoBox .descripcionContainer .tituloContainer{
+    margin-bottom: 3%;
+}
+.pagoContainer .pagoRow .col-md-6 .pagoBox .descripcionContainer .primerParrafoPagoContainer .primerParrafoPago{
+    width: 38%;
+    font-size: 112%;
+    margin-bottom: 1%;
+}
+.pagoContainer .pagoRow .col-md-6 .pagoBox .descripcionContainer .segundoParrafoPagoContainer .segundoParrafoPago{
+    font-weight: 600;
+    width: 36%;
+    font-size: 112%;
+}
+.metodoPagoContainer .subTextoContainer{
+    text-align: end;
+}
+.metodoPagoContainer .subTextoContainer .subTexto{
+    font-size: 80%;
+    display: inline-block;
+    margin-bottom: 0%;
+}
+.metodoPagoContainer .subTextoContainer .subCandadoContainer{
+    display: inline-block;
+    width: 4%;
+}
+.metodoPagoContainer .subTextoContainer .subCandadoContainer .subCandado{
+    color: #efef03;
+    width: 57%;
+}
+.metodoPagoContainer .tarjetaWrapper{
+    border: solid #d5d5d5 2px;
+    border-radius: 6px;
+    height: 5.5rem;
+    padding: 2%;
+    cursor: pointer;
+}
+.metodoPagoContainer .tarjetaWrapper .tarjetaContainer{
+    width: 50%;
+    display: inline-block;
+    text-align: start;
+}
+.metodoPagoContainer .tarjetaWrapper .tarjetaNextContainer{
+    width: 50%;
+    display: inline-block;
+    text-align: end;
+}
+.metodoPagoContainer .tarjetaWrapper .tarjetaNextContainer .next{
+    height: 28px;
+    color: #d5d5d5;
+}
+
+/* Resonsive */
+@media screen and (max-width: 600px){
+
+    .logoContainer{
+        width: 31%;
+
+    }
+    .logoContainer .nav-link{
+        width: 100%;
+    }
+    .logoContainer .nav-link img{  
+        width: 100%;
+    }
+    .menuContainer .nav .buttonSesionContainer{
+        text-align: center;
+        margin-top: 3%;
+    }
+    .menuContainer .nav div .btnRed{
+        width: 47%;
+    }
+    /* Primer contenedor*/
+    .containerWelcome .firstContainer{
+        margin-top: 18%;
+        margin-bottom: 34%;
+    }
+    .firstContainer .col .titleContainer h1{
+        width: 85%;
+    }
+    .firstContainer .col .titleContainer h5{
+        margin-top: 4%;
+    }
+    .firstSection .col .comenzarContainer h6{
+        font-size: 1.1rem;
+        width: 80%;
+    }
+    .firstSection .col .comenzarContainer input {
+        height: 3.1rem;
+        width: 80%;
+    }
+    .firstSection .col .comenzarContainer button{
+        display: block;
+        margin-top: 6%;
+        width: 24%;
+        height: 2.5rem;
+    }
+    .firstSection .col .comenzarContainer button h4{
+        font-size: 114%;
+        margin: 0%;
+    }
+    .firstSection .col .comenzarContainer button h4 .welcomeNext{
+        width: 8%;
+    }
+
+    .containerWelcome .secondContainer .container .row .textContainer {
+        display: contents;
+        text-align: center  ;
+    }
+    .containerWelcome .secondContainer .container .row .textContainer h1{
+        width: 100%;
+    font-size: 2.5rem;
+    }
+    .containerWelcome .secondContainer .container .row .textContainer h4{
+        font-size: 119%;
+        margin-top: 0%;
+        padding: 0% 10%;
+    }
+    .contenedorCarrusel {
+        margin-top: 9%;
+    }
+
+
+
+}
