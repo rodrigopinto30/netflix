@@ -453,6 +453,13 @@ body{
     font-weight: 400;
     font-size: 131%;
 }
+.btnSiguienteLink{
+    padding: 1.2% 9%;
+    text-decoration: none;
+}
+.btnSiguienteLink:hover{
+    color: white;
+}
 .botonFeo{
     display: block;
     background-color: #e50914;
@@ -551,10 +558,10 @@ body{
 .seleccionContainer .justify-content-md-center{
     text-align: initial;
 }
-.seleccionContainer .justify-content-md-center .encabezadoWrapper .contadorSeleccion{
+.contadorSeleccion{
     font-size: 85%;
 }
-.seleccionContainer .justify-content-md-center .encabezadoWrapper .contadorSeleccion span{
+.contadorSeleccion span{
     font-weight: 700;
 }
 .seleccionContainer .justify-content-md-center .encabezadoWrapper .tituloSeleccionContainer{
@@ -622,6 +629,43 @@ body{
     height: 84px;
     color: #e50914;
 }
+/* Estilo 'Configuracion de tarjeta'*/ 
+#signUpBodyConfiguracionTarjeta{
+    padding: 0% 35%;
+    margin-top: 4%;
+}
+.cabeceraContainer{
+    text-align: left;
+}
+.cabeceraContainer #contadorSeleccionConfiguracionTarjeta{
+    margin-bottom: 0%;
+}
+.cabeceraContainer .tituloConfiguracionContainer .tituloConfiguracion{
+    font-weight: 600;
+    font-size: 140%;
+}
+.cabeceraContainer .configImagenContainer{
+    margin-top: 2%;
+}
+.formularioMembresia .form-group input{
+    margin-top: 2%;
+    border-radius: 0%;
+    padding: 0.75rem 0.75rem;
+    border-radius: 3px;
+}
+.btnMembresiaContainer{
+    background-color: #e50914;
+    padding: 3% 0%;
+    margin-top: 7%;
+}
+.btnMembresiaContainer .btnMembresia{
+    padding: 3% 32%;
+    color: white;
+    text-decoration: none;
+}
+.btnMembresiaContainer .btnMembresia:hover{
+    color: white;
+}
 /* Estilos 'Elegir pago' */
 .pagoContainer{
     margin-top: 5%;
@@ -685,8 +729,11 @@ body{
     border: solid #d5d5d5 2px;
     border-radius: 6px;
     height: 5.5rem;
-    padding: 2%;
-    cursor: pointer;
+    padding: 5% 3%;
+    color: black;
+}
+.metodoPagoContainer .tarjetaWrapper:hover{
+    color: black;
 }
 .metodoPagoContainer .tarjetaWrapper .tarjetaContainer{
     width: 50%;
@@ -694,7 +741,7 @@ body{
     text-align: start;
 }
 .metodoPagoContainer .tarjetaWrapper .tarjetaNextContainer{
-    width: 50%;
+    width: 42%;
     display: inline-block;
     text-align: end;
 }
@@ -702,6 +749,30 @@ body{
     height: 28px;
     color: #d5d5d5;
 }
+/* Page 'Elegir los usuarios' */
+.cabeceraUsersContainer{
+    margin-bottom: 6%;
+}
+.cabeceraUsersContainer .tituloUsersContainer{
+    text-align: left;
+}
+.cabeceraUsersContainer .tituloUsersContainer .tituloUsers{
+    font-weight: 600;
+    font-size: 149%;
+}
+.cabeceraUsersContainer .descripcionUsersContainer{
+    text-align: left;
+}
+.cabeceraUsersContainer .descripcionUsersContainer .descripcionUsers{
+    font-size: 90%;
+    color: #707070;
+}
+
+
+
+
+
+
 
 /* Resonsive */
 @media screen and (max-width: 600px){

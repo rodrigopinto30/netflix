@@ -1,12 +1,9 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faAngleRight, faLock} from '@fortawesome/free-solid-svg-icons';
+import { Link } from "react-router-dom";
 
 const ElegirPago: React.FC =()=>{
-
-    const lastStep =()=>{
-        alert("fin del proceso de registro")
-    }
 
     return(
         <div className="container pagoContainer">
@@ -44,7 +41,7 @@ const ElegirPago: React.FC =()=>{
                                     <FontAwesomeIcon className="subCandado" icon={faLock} />
                                 </div>
                             </div>
-                            <div className="tarjetaWrapper" onClick={lastStep}>
+                            <Link className="tarjetaWrapper" to="/configuracionTarjeta">
                                 <div className="tarjetaContainer">
                                     <span>Tarjeta de crédito o débito</span>
                                     <div className="tarjetaLogo">
@@ -56,7 +53,7 @@ const ElegirPago: React.FC =()=>{
                                         <FontAwesomeIcon className="next" icon={faAngleRight} />
                                     </div>
                                 </div>
-                            </div>
+                            </Link>
                         </div>
                     </div>
                 </div>

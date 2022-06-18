@@ -8,7 +8,7 @@ const NavbarSignup: React.FC =()=>{
                 <NavLink 
                     to="/welcome"
                     className="logoSignup"
-                > NETFLICS</NavLink>
+                > NETFLIX</NavLink>
             </div>
             <div className="sesionSignupContainer">
                 <NavLink 

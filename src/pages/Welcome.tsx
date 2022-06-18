@@ -46,7 +46,7 @@ const Welcome: React.FC = () =>{
                 setCorreo({...correo, valido:'false'})
                 swal(
                     {
-                        title: "Contraseña",
+                        title: "Email",
                         text: "Escribe una dirección de email válida",
                         icon: "warning",
                         dangerMode: true,
